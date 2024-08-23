@@ -1,15 +1,78 @@
 body {
   background-image: url("../images/poem.jpg");
   background-size: cover;
-
   text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .poem-container {
   max-width: 800px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
-  margin: 50px auto;
+  margin: 80px auto;
   padding: 30px 30px 20px 30px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgb(54, 30, 24, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+h1,
+footer {
+  color: #361e18;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.poem-search-form {
+  justify-content: space-between;
+  background-color: rgb(244, 178, 158, 0.4);
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.poem-topic-input {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 1px solid #71635f;
+  margin-right: 10px;
+  width: 50%;
+  background-color: #e9d2ce;
+}
+
+input:focus {
+  border: none;
+}
+
+.submit-topic-button {
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 10px;
+  width: 15%;
+  background-color: #f9a183;
+  /* background-color: #e9d2ce; */
+}
+
+.poem {
+  margin-top: 40px;
+  background-color: rgb(244, 178, 158, 0.4);
+  line-height: 24px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+a {
+  color: #e9d2ce;
 }
