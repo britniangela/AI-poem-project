@@ -45,7 +45,7 @@ h1 {
 }
 
 input:focus {
-  border: none;
+  outline: 1px solid grey;
 }
 
 .submit-topic-button {
