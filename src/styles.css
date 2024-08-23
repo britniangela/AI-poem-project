@@ -27,7 +27,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.poem-search-form {
+.poem-generator-form {
   justify-content: space-between;
   background-color: rgb(244, 178, 158, 0.4);
   border-radius: 10px;
@@ -59,7 +59,7 @@ input:focus {
   /* background-color: #e9d2ce; */
 }
 
-.poem {
+.poem-box {
   margin-top: 40px;
   background-color: rgb(244, 178, 158, 0.4);
   line-height: 24px;
