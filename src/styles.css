@@ -8,7 +8,7 @@ body {
 }
 
 .poem-container {
-  max-width: 800px;
+  max-width: 600px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
   margin: 80px auto;
@@ -27,20 +27,31 @@ h1 {
   margin-bottom: 30px;
 }
 
-.poem-generator-form {
-  justify-content: space-between;
+.form-container {
+  /* justify-content: space-between; */
   background-color: rgb(244, 178, 158, 0.4);
   border-radius: 10px;
-  padding: 20px 40px;
+  padding: 10px 10px;
+}
+
+.poem-generator-form {
+  display: flex;
+}
+
+.hint {
+  font-size: 14px;
+  text-align: left;
+  opacity: 0.4;
+  margin-top: 5px;
 }
 
 .poem-topic-input {
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 16px;
   border-radius: 30px;
   border: 1px solid #71635f;
-  margin-right: 10px;
-  width: 50%;
+
+  width: 75%;
   background-color: #e9d2ce;
 }
 
@@ -54,9 +65,9 @@ input:focus {
   border-radius: 30px;
   border: none;
   margin-left: 10px;
-  width: 15%;
+  width: 20%;
   background-color: #f9a183;
-  /* background-color: #e9d2ce; */
+  opacity: 0.7;
 }
 
 .poem-box {
@@ -66,6 +77,10 @@ input:focus {
   border-radius: 10px;
   padding: 20px 20px;
   font-size: 18px;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {

@@ -20,18 +20,21 @@
         <h1>AI Māori Haka Generator</h1>
       </header>
       <main>
-        <form action="" class="poem-generator-form" id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Pick a topic..."
-            class="poem-topic-input"
-            id="poem-topic-input"
-            autofocus
-            required
-          />
-          <input type="submit" class="submit-topic-button" />
-        </form>
-        <div class="poem-box" id="poem-box"></div>
+        <div class="form-container">
+          <form action="" class="poem-generator-form" id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Pick a topic..."
+              class="poem-topic-input"
+              id="poem-topic-input"
+              autofocus
+              required
+            />
+            <input type="submit" class="submit-topic-button" />
+          </form>
+          <div class="hint">Ex. Family, Love, Friendship..</div>
+        </div>
+        <div class="poem-box hidden" id="poem-box"></div>
       </main>
       <footer>
         This poem generator was coded by
